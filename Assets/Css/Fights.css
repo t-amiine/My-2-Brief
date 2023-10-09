@@ -1,0 +1,82 @@
+#flight {
+    height: auto;
+    padding: 50px 0;
+    margin-top: 30px;
+    /* background-color: #eaeaea; */
+}
+.flight .flight-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.flight .flight-box .flight-info {margin-bottom: 86px;}
+.flight {width: 70%; background-color: #fff;}
+.filter {width: 25%;}
+/* */
+.search-bar {
+    background-color: #eaeaea;
+    height: 40px;
+    align-items: center;
+} 
+/* SEARCH BAR */ 
+.search-bar input {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    margin-left: 10px;
+    width: 300px;
+    font-size: 18px;
+}
+.search-bar button {
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 0;
+} 
+/* RANGE */     
+.price-bar h3 {margin-bottom: 15px;}
+.price-bar input{
+    width: 100%;
+    background-color: #000;
+}
+/* CHECKBOX BAR */
+.check-bar,
+.price-bar {
+    margin-top: 20px;
+    background-color: #eaeaea;
+    padding: 30px 15px;
+}
+.check-bar h3 {margin-bottom: 15px;}
+.check-bar input {margin: 0 10px 10px 0;}
+/* PUB */
+.pub{
+    background-color: #000;
+    color: #eaeaea;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px ;
+}
+
+/* FLIGHT */ 
+.flight-info {
+    width: 250px;
+    background-color: #eaeaea;
+    padding: 20px 10px;
+}
+.flight-info img {margin-bottom: 20px;}
+.flight-info h3 {
+    margin: 10px 0 2px 0;
+}
+.flight-info .flight-price {
+    font-size: 18px;
+    font-weight: 800;
+    color: rgb(14, 14, 79);
+}
+
+/* LOAD MOE BUTTON */
+.load-more button {
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0;
+}

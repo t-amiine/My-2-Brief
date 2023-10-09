@@ -1,0 +1,45 @@
+#about-hero {
+    width: 100%;
+    height: calc(100vh - 80px);
+    background-color: #eaeaea;
+}
+#about-hero .container {
+    height: calc(100vh - 80px);
+    align-items: center;
+}
+#about-hero .c-info {
+    width: 50%;
+    text-align: justify;
+}
+#about-hero h1 {font-size: 35px;}
+#about-hero h5 {font-size: 20px;}
+#about-hero p {margin: 20px 0 30px 0;}
+#about-hero .value {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+#about-hero .value i {margin-right: 20px; font-size: 20px;}
+
+/* TESTIMONIES SECTION */ 
+/* =================================== */
+
+#testimonies {
+    height: auto;
+    padding: 50px 0;
+}
+#testimonies h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#testimonies h3 {margin: 25px 0 10px 0;}
+#testimonies p {text-align: justify;}
+#testimonies .person {
+    border: 3px solid #000;
+    width: 28%;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
