@@ -20,26 +20,3 @@
     align-items: center;
 }
 #about-hero .value i {margin-right: 20px; font-size: 20px;}
-
-/* TESTIMONIES SECTION */ 
-/* =================================== */
-
-#testimonies {
-    height: auto;
-    padding: 50px 0;
-}
-#testimonies h1 {
-    font-size: 40px;
-    text-align: center;
-    margin-bottom: 30px;
-}
-#testimonies h3 {margin: 25px 0 10px 0;}
-#testimonies p {text-align: justify;}
-#testimonies .person {
-    border: 3px solid #000;
-    width: 28%;
-    padding: 30px 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}

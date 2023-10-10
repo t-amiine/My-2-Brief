@@ -63,7 +63,7 @@ footer {
     height: auto;
     background-image: url(../Img/footer-img.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 footer .first-f {
@@ -78,3 +78,26 @@ footer a {
     font-size: 18px;
 }
 /* ==================================================== */
+
+/* TESTIMONIES & GUIDE INFORMATION SECTION */ 
+/* =================================== */
+#info-cnt {
+    height: auto;
+    padding: 50px 0;
+}
+#info-cnt h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#info-cnt h3 {margin: 25px 0 10px 0;}
+#info-cnt p {text-align: justify;}
+#info-cnt .pr-grp {
+    border: 3px solid #000;
+    width: 28%;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* =========================================================*/
