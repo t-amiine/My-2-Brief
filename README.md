@@ -1,7 +1,7 @@
 # My-2-Brief
 
 
-#  Project
+#  Project Time Line
 1. Five Days
 
 # Language Used 
@@ -15,13 +15,12 @@
 # Site maps ()
 (**) : Mean Not Necessary To Add 
 
-Home ================> Guides    =====> Information About Page **
-                =
-                =====> Flights
-                =
-                =====> About Us
-                =
-                =====> Contact Us
-                =
-                =====> Blog **
+1. Home
+2. Guides
+3. Flights
+4. About Us
+5. Contact Us
+
+6. Blog
+7. Information About Page
                 
