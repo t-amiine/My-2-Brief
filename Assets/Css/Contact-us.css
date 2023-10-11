@@ -1,6 +1,7 @@
 /* CONTACT PAGE */
 /* ================================== */
 #contact-hero {height: calc(100vh - 80px);}
+
 #contact-hero .container {
     height: calc(100vh - 80px);
     align-items: center;
@@ -59,3 +60,9 @@
     text-align: center;
 }
 .cnt-information h3 {margin: 20px 0 5px 0;}
+.cnt-information img {
+    width: 40px;
+    background-color: #eaeaea;
+    border-radius: 30px;
+    padding: 20px;
+}

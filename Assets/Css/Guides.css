@@ -23,7 +23,6 @@
 }
 #places-section .places-info {
     /* background-color: #eaeaea; */
-    background-image: url(../Img/flight-img.png);
     background-size: 100%;
     background-repeat: no-repeat;
     width: 20%;
@@ -32,9 +31,17 @@
     justify-content: center;
     align-items: flex-end;
 }
+#places-section .place-1 {background-image: url(../Img/Places/France-img.png);}
+#places-section .place-2 {background-image: url(../Img/Places/Poland-img.png);}
+#places-section .place-3 {background-image: url(../Img/Places/Newyork-img.png);}
+#places-section .place-4 {background-image: url(../Img/Places/Japan-img.png);}
 #places-section .places-info h3 {
     margin-bottom: 30px;
+    color: #eaeaea;
 }
+
+
+
 #info-cnt .container span {
     font-weight: 600;
     color: rgb(17, 17, 109);

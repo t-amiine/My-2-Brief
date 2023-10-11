@@ -61,7 +61,7 @@ header ul li a{
 footer {
     width: 100%;
     height: auto;
-    background-image: url(../Img/footer-img.jpg);
+    background-image: url(../Img/Background/footer-img.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
