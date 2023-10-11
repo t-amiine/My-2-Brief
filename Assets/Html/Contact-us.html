@@ -44,14 +44,17 @@
             <div class="my-form">
                 <form action="https://formsubmit.co/t-amiine@proton.me" method="POST">
 
+                    <input type="hidden" name="_subject" value="New submission Form Your Travel Agency !">
+
                     <h1>Be Updated!</h1>
                     <div><input type="text" name="First-Name" placeholder="First Name *" required maxlength="20"></div>
                     <div><input type="text" name="Last-Name" placeholder="Last Name *" required maxlength="20"></div>
-                    <div><input type="email" name="Subject" placeholder="Email Subject *" required ></div>
-                    <div class="m-area"><textarea name="Message" placeholder="write something here" required></textarea></div>
+                    <div><input type="email" name="email" placeholder="Votre Email *" required ></div>
+                    <div class="m-area"><textarea name="Message" placeholder="write something here" required maxlength="200"></textarea></div>
     
                     <input type="hidden" name="_next" value="https://t-amiine.github.io/My-2-Brief/Assets/Html/Thank-you.html">
-                    <button>Submit Email</button>
+
+                    <button type="submit">Submit Email</button>
                 </form>
             </div>
 
