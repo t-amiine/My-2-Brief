@@ -13,7 +13,6 @@
 
 
 # Site maps ()
-(**) : Mean Not Necessary To Add 
 
 1. Home
 2. Guides
@@ -22,5 +21,5 @@
 5. Contact Us
 
 6. Blog
-7. Information About Page
+7. FAQ
                 

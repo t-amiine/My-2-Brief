@@ -1,0 +1,66 @@
+/* Search Box */
+/* ========================================= */
+#search {
+    width: 100%;
+    margin-top: 20px;
+    padding: 80px 0;
+}
+#search .container {height: 80px;text-align: center;}
+#search .search-box {background-color: #eaeaea;}
+#search h1 {font-size: 35px;}
+#search .container form {align-items: center;}
+#search .container input {
+    background-color: transparent;
+    width: 75%;
+    height: 80px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+    margin-left: 20px;
+}
+#search .container button {cursor: pointer; height: 50px; margin-right: 20px;}
+
+/* FAQ */
+/* ========================================= */
+#question-ans {
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+}
+#question-ans .container {flex-wrap: wrap;}
+#question-ans .container .qst {
+    width: 45%;
+    background-color: #eaeaea;
+    margin-bottom: 20px;
+}
+#question-ans .container .qst p {padding: 30px 20px;text-align: justify;}
+#question-ans .container .qst i {font-size: 18px;}
+#question-ans .container .qst div {
+    align-items: center;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+/* TEAM */
+/* ========================================= */
+#contact-us {height: auto; padding: 80px 0 ;}
+#contact-us .container {
+    text-align: center;
+
+}
+#contact-us .container h1 {margin-bottom: 15px; font-size: 30px;}
+#contact-us .container p {font-size: 20px;}
+#contact-us .container .team-section {
+    margin-top: 50px;
+}
+#contact-us .container .team-section div {
+    width: 30%;
+    background-color: #f5f5f5;
+    padding: 20px 5px;
+    border: 3px solid #808080;
+}
+#contact-us .container h2 {
+    margin: 15px 0 5px 0;
+}
+#contact-us .container a {font-weight: 700;}

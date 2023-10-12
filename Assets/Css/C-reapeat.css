@@ -38,7 +38,9 @@ header .links a:hover {
 footer,
 #testimonies {
     margin-top: 80px;
- }
+}
+
+
 /* HEADER */
 /* ==================================================== */
 header {
@@ -53,7 +55,7 @@ header .container {
 header ul {display: flex;} 
 header ul li a{
     margin-right: 20px;
-    padding: 25px 15px;
+    padding: 20px 15px;
 }
 
 /* FOOTER */
@@ -77,7 +79,6 @@ footer a {
     margin-bottom: 10px;
     font-size: 18px;
 }
-/* ==================================================== */
 
 /* TESTIMONIES & GUIDE INFORMATION SECTION */ 
 /* =================================== */

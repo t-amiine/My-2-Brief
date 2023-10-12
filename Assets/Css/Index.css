@@ -34,3 +34,37 @@
 footer {
     margin-top: 0;
  }
+
+ /* nav bar */
+ #check {display: none;}
+.check-btn {
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+
+/* =============
+@media (max-width: 1200px) {
+    .check-btn {
+        display: block;
+    }
+    header ul {
+        position: fixed;
+        width: 100%;
+        height: 30vh;
+        background-color: #000000;
+        top: 80px;
+        left: -100%;
+        flex-direction: column;
+    }
+    header ul li {
+        margin: 20px 0 5px 40px;
+    }
+    header ul li a {
+        color: #fff;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+} */

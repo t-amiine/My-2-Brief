@@ -20,3 +20,18 @@
     align-items: center;
 }
 #about-hero .value i {margin-right: 20px; font-size: 20px;}
+
+/* MAP SECTION */
+/* ==================*/
+#map-section {
+    width: 100%;
+    height: auto;
+    padding: 50px 0;
+    text-align: center;
+}
+#map-section h1 {font-size: 35px;}
+
+#map-section .container iframe{
+    width: 100%;
+    margin-top: 50px;
+}
