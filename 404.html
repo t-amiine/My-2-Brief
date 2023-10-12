@@ -12,12 +12,10 @@
     <!-- FONT AWESOME LINKS -->
     <script src="https://kit.fontawesome.com/da6b47f324.js" crossorigin="anonymous"></script>
 
-    <!-- CSS LINK -->
-    <link rel="stylesheet" href="Assets/Css/C-reapeat.css">
-
+    <!-- CSS -->
     <style>
+        * {margin: 0; padding: 0; font-family: 'Young Serif', serif; text-decoration: none;}
         section  {
-            font-family: 'Young Serif', serif; 
             height: 100vh;
             background-color: #eaeaea;
         }
@@ -39,6 +37,16 @@
         .info-container a {
             padding: 10px 50px;
             font-size: 20px;
+            border: 3px solid #000;
+            border-radius: 5px;
+            font-weight: 600;
+            background-color: #000; 
+            color: #fff;
+        }
+        .info-container a:hover {
+            background-color: transparent;
+            color: #000;
+            transition-duration: 1s;
         }
     </style>
 
@@ -51,7 +59,7 @@
             <div class="info-container">
                 <h1><i class="fa-solid fa-circle-exclamation fa-bounce"></i> OOPS !! </h1>
                 <h2>It's Look Like We Can't Find The Page <br> That You Are Looking For !</h2>
-                <a class="sp-btn-reverse" href="index.html">Return Home</a>
+                <a href="index.html">Return Home</a>
             </div>
         </div>
     </section>
