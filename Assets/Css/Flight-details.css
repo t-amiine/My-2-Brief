@@ -1,0 +1,100 @@
+section {
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+}
+section .container {
+    height: 80vh;
+}
+section .container .flight-content {
+    width: 45%;
+    height: 80vh;
+}
+section .container .flight-content,
+section .flight-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+section .container .flight-content .big-image  {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 50px;
+}
+section .container .flight-content .big-image img {
+    width: 100%;
+    height: 100%;
+}
+section .container .flight-content div {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+section .container .flight-content div img {
+    cursor: pointer;
+    width: 30%;
+    border: 3px solid #000000;
+}
+/* */ 
+section .flight-details {
+    width: 45%;
+    height: 80vh;
+    /* background-color: rgb(173, 134, 134); */
+}
+section .flight-details div {align-items: center;}
+section .flight-details div span {
+    margin-left: 50px;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+}
+section .flight-details p {
+    margin: 15px 0 30px 0;
+    text-align: justify;
+}
+section .flight-details h2 {margin-top: 10px;}
+
+/* */
+section .adding {
+    background-color: #eaeaea;
+    border-radius: 5px;
+    height: 60px;
+    width: 100%;
+}
+section .adding input {
+    background-color: transparent;
+    height: 40px;
+    width: 200px;
+    margin-left: 20px;
+    border: 0;
+    outline: 0;
+    font-size: 20px;
+}
+section .adding a {margin-right: 10px;}
+
+/* */
+section .icons {
+    width: 100%;
+    margin-top: 20px;
+}
+section .icons input {
+    width: 70%;
+    height: 40px;
+    border: 3px solid ;
+    padding-left: 20px;
+    border-radius: 5px;
+}
+section .icons button {cursor: pointer;}
+section .icons i {font-size: 15px;font-weight: 700;}
+
+section .flight-details h3 {margin-bottom: 20px;}
+section .flight-details del {
+    color: #808080;
+    margin-left: 20px;
+}
+section .flight-details del,
+section .flight-details h3 span {
+    font-size: 25px;
+}

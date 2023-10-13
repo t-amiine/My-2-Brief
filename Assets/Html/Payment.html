@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Young+Serif&display=swap" rel="stylesheet">
+
+    <!-- FONT AWESOME LINKS -->
+    <script src="https://kit.fontawesome.com/da6b47f324.js" crossorigin="anonymous"></script>
+
+    <!-- CSS LINK -->
+    <link rel="stylesheet" href="../Css/C-reapeat.css">
+    <link rel="stylesheet" href="../Css/Payment.css">
+
+    <title>Payment Page</title>
+</head>
+<body>
+    
+    
+
+
+    <section>
+        <div class="container d-flex">
+
+            <div class="items-info">
+                <div class="Retourn">
+                    <a href="Flight-details.html">
+                        <i class="fa-regular fa-square-caret-left"></i>
+                        Return
+                    </a>
+                </div>
+        
+                <div class="d-flex">
+                    <p><b>Date :</b></p>
+                    <span>11/12/2023</span>
+                </div>
+        
+                <div class="d-flex">
+                    <p><b>flight type :</b></p>
+                    <span>France</span>
+                </div>
+        
+                <div class="d-flex">
+                    <p><b>Ticket Price :</b></p>
+                    <span>1000 Dh / P.</span>
+                </div>
+        
+                <div class="d-flex">
+                    <p><b>Number of Travelers :</b></p>
+                    <span>1</span>
+                </div>
+        
+                <div class="d-flex amount">
+                    
+                    <p><b>Total Amount :</b></p>
+                    <span>1000 Dh</span>
+                </div>
+        
+            </div>
+
+            <div class="Payment-info">
+
+                <div class="d-flex payment-type">
+                    <div class="d-flex">
+                        <i class="fa-regular fa-credit-card"></i>
+                        <h1>Credit Card</h1>
+                    </div>
+
+                    <div class="d-flex paypal-pay">
+                        <a href="Under-Maintenance.html" class="d-flex sp-btn-reverse"><i class="fa-brands fa-paypal"></i>Paypal</a>
+                    </div>
+                </div>
+
+                <div class="payment-input">
+                    
+                    <form>
+                        <input type="text" placeholder="First Name" required maxlength="25"> <br>
+                        <input type="text" placeholder="Last Name" required maxlength="25"> <br>
+                        <input type="email" placeholder="Your Email Address" required> <br>
+
+                        <input type="tel" placeholder="0000 0000 0000 0000" required maxlength="12" minlength="12"> <br>
+
+                        <div class="d-flex">
+                            <input type="tel" placeholder="02/27" required minlength="5" maxlength="5" >
+                            <input type="tel" placeholder="CVV" required minlength="3" maxlength="3">
+                        </div>
+
+                        
+                        <p> ** Your Payment Mean you agree To Our <a href="#"><u>Data Processing .</u></a></p>
+                        
+
+                        <button type="submit" class="sp-btn-reverse">Pay Now</button>
+                    </form>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+</body>
+</html>

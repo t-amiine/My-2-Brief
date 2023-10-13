@@ -1,0 +1,98 @@
+.container {
+    margin-top: 80px;
+    height: auto;
+    padding: 20px 0 50px 0;    
+}
+/* */
+.items-info {
+    background-color: #eaeaea;
+    width: 400px;
+    height: 280px;
+    padding: 10px;
+}
+.items-info div {margin-bottom: 10px;}
+.items-info span {
+    font-weight: 600;
+}
+.items-info .amount {
+    margin-top: 50px;
+    background-color: #000;
+    padding: 10px;
+    color: #ffffff;
+}
+.items-info .amount span {color: #fff;}
+.Retourn {
+    padding: 10px 0 20px 0;
+}
+.Retourn a {
+    background-color: #808080;
+    color: #fff;
+    padding: 5px 20px;
+}
+.Retourn i {margin-right: 10px;}
+/* */ 
+
+.Payment-info {
+    width: 650px;
+    /* background-color: #b85c5c; */
+}
+
+.payment-type,
+.payment-type div {align-items: center;}
+
+.payment-type {
+    width: 100%;
+    height: 80px;
+}
+.payment-type div {
+    background-color: #eaeaea;
+    height: 80px;
+    padding: 0 40px;
+    cursor: pointer;
+}
+.payment-type div i {
+    font-size: 30px;
+    margin: 0 20px;
+}
+.Payment-info .paypal-pay {
+    /* height: 40px;  */
+    background-color: transparent;
+    /* padding: 10px 20px; */
+}
+
+
+/* */
+.payment-input {
+    padding: 30px 0 20px 0 ;
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.payment-input input {
+    margin-bottom: 20px;
+    width: 89.5%;
+    border: 0;
+    outline: 0;
+    padding: 10px 0 10px 20px;
+    background-color: transparent;
+    border: 3px solid #808080;
+    font-size: 18px;
+    font-weight: 700;
+}
+.payment-input div {width: 94%;}
+.payment-input div input {
+    width: 40%;
+}
+
+.payment-input p {
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: 700;
+}
+.payment-input button {
+    width: 94%;
+    font-size: 20px;
+    cursor: pointer;
+}
